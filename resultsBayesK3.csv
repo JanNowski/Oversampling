@@ -1,0 +1,13 @@
+;classifier;resampler;selection_algorithm;accuracy;precision;recall;duration
+0;GaussianNB(priors=None);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
+   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.5894736842105263;0.11695906432748537;0.8;0.0014739890148121049
+1;GaussianNB(priors=None);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
+   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7842105263157895;0.5795657629567664;0.68;0.0010439096263326064
+2;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
+   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.5894736842105263;0.12138728323699421;0.84;0.002831355973285099
+3;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
+   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.5684210526315789;0.5524950764195168;0.88;0.0016861842682374117
+4;GaussianNB(priors=None);ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.5657894736842105;0.11538461538461539;0.84;0.0021924946595390793
+5;GaussianNB(priors=None);ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.5734945903610069;0.68;0.0010052252368950576
+6;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.5842105263157895;0.12429378531073447;0.88;0.0017060953514373978
+7;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.5684210526315789;0.5524950764195168;0.88;0.0014176690947351744
