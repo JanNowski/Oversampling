@@ -1,12 +1,8 @@
 ;classifier;resampler;selection_algorithm;accuracy;precision;recall;duration
-0;GaussianNB(priors=None);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.9607843137254902;0.9274247642134613;0.9623452342691384;0.0031704132687764286
-1;GaussianNB(priors=None);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.8590102707749766;0.6120222409120643;0.5380952380952381;0.0012953581576766737
-2;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.9365079365079365;0.8804145224478064;0.8893670336190548;0.0033962618364284936
-3;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.8590102707749766;0.6120222409120643;0.5380952380952381;0.0018073574295840444
+0;GaussianNB(priors=None);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.9607843137254902;0.9274247642134613;0.9623452342691384;0.0031704132687764286
+1;GaussianNB(priors=None);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.8590102707749766;0.6120222409120643;0.5380952380952381;0.0012953581576766737
+2;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.9365079365079365;0.8804145224478064;0.8893670336190548;0.0033962618364284936
+3;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.8590102707749766;0.6120222409120643;0.5380952380952381;0.0018073574295840444
 4;GaussianNB(priors=None);ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8319327731092437;0.8065266882282778;0.8208456504310543;0.0038087056942686104
 5;GaussianNB(priors=None);ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.1895424836601307;0.3796296296296296;0.549828178694158;0.0012822737318174404
 6;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.869281045751634;0.7996778606286936;0.8179459378005696;0.004314447197202753

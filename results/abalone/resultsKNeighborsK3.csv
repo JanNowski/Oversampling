@@ -1,337 +1,97 @@
 ;classifier;resampler;selection_algorithm;accuracy;precision;recall;auc;duration
-0;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.005277574717183597
-1;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7;0.09174311926605505;0.4;0.7219718309859156;0.002170876911804953
-2;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8526315789473684;0.22807017543859648;0.52;0.6980281690140845;0.0077886467006464954
-3;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7263157894736842;0.1504424778761062;0.68;0.6980281690140845;0.0017749308090060367
-4;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.004819619811314624
-5;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7289473684210527;0.1388888888888889;0.6;0.6853521126760563;0.0016082466017905972
-6;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.006949536782485666
-7;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7421052631578947;0.1651376146788991;0.72;0.6811267605633803;0.0028643514815485105
-8;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.0031914621276882826
-9;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7;0.09174311926605505;0.4;0.7219718309859156;0.0021833924502061564
-10;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8552631578947368;0.23214285714285715;0.52;0.6994366197183098;0.005489201082127693
-11;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.75;0.1111111111111111;0.4;0.6994366197183098;0.0024160676748579135
-12;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.005877182752556109
-13;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7605263157894737;0.11627906976744186;0.4;0.6867605633802817;0.001976317189473775
-14;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8236842105263158;0.19117647058823528;0.52;0.6825352112676056;0.0068943546393711586
-15;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7736842105263158;0.12345679012345678;0.4;0.6825352112676056;0.0028899514454678865
-16;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.0044743047474185005
-17;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7;0.09174311926605505;0.4;0.7219718309859156;0.002145276948795072
-18;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8526315789473684;0.22807017543859648;0.52;0.6980281690140845;0.004029434268886689
-19;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7263157894736842;0.1504424778761062;0.68;0.6980281690140845;0.0016617220808257116
-20;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.00416824296098639
-21;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7263157894736842;0.13761467889908258;0.6;0.6853521126760563;0.0016514820954398601
-22;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.005964222628790594
-23;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7421052631578947;0.1651376146788991;0.72;0.6811267605633803;0.0029400135963442153
-24;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.003010555718901742
-25;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7;0.09174311926605505;0.4;0.7219718309859156;0.001538273367259535
-26;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8552631578947368;0.23214285714285715;0.52;0.6994366197183098;0.0037102880560269114
-27;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.75;0.1111111111111111;0.4;0.6994366197183098;0.0016236065803241218
-28;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.003750679109543853
-29;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7605263157894737;0.11627906976744186;0.4;0.6867605633802817;0.001875055111668189
-30;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8236842105263158;0.19117647058823528;0.52;0.6825352112676056;0.004106803048671281
-31;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7736842105263158;0.12345679012345678;0.4;0.6825352112676056;0.0018767617748380871
-32;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.005847600571541989
-33;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7157894736842105;0.11214953271028037;0.48;0.7219718309859156;0.00645517304110399
-34;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8526315789473684;0.22807017543859648;0.52;0.6980281690140845;0.006664523854851723
-35;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7210526315789474;0.1415929203539823;0.64;0.6980281690140845;0.0069859456198173575
-36;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.009121551471253042
-37;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7342105263157894;0.14150943396226415;0.6;0.6853521126760563;0.009783168308786117
-38;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.008040664119107532
-39;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7473684210526316;0.16822429906542055;0.72;0.6811267605633803;0.009121551471253042
-40;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.005038641722421744
-41;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7157894736842105;0.11214953271028037;0.48;0.7219718309859156;0.005723014082832378
-42;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8552631578947368;0.23214285714285715;0.52;0.6994366197183098;0.007656095778656891
-43;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.75;0.1111111111111111;0.4;0.6994366197183098;0.005662143058543734
-44;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.008965107249423454
-45;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7684210526315789;0.12048192771084337;0.4;0.6867605633802817;0.009458902102778666
-46;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8236842105263158;0.19117647058823528;0.52;0.6825352112676056;0.009090262627069023
-47;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1,
-   out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7736842105263158;0.12345679012345678;0.4;0.6825352112676056;0.007625375822499336
-48;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.00685168803374836
-49;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7105263157894737;0.09523809523809523;0.4;0.7247887323943661;0.004493078054110811
-50;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8631578947368421;0.24528301886792453;0.52;0.703661971830986;0.0060040447942810715
-51;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.14606741573033707;0.52;0.703661971830986;0.0036733103306687553
-52;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.007357998423685785
-53;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7289473684210527;0.14545454545454545;0.64;0.6853521126760563;0.0048679752990210545
-54;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8157894736842105;0.18309859154929578;0.52;0.6783098591549296;0.00871536538215878
-55;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7473684210526316;0.1619047619047619;0.68;0.6783098591549296;0.004791175408172421
-56;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.008447419097137754
-57;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7105263157894737;0.09523809523809523;0.4;0.7247887323943661;0.004700722202869656
-58;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8657894736842106;0.25;0.52;0.7050704225352113;0.008327383712639858
-59;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7578947368421053;0.10588235294117647;0.36;0.7050704225352113;0.0033678174322631094
-60;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.007462104943442682
-61;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.1111111111111111;0.36;0.6867605633802817;0.003348475237544335
-62;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.00920631579538167
-63;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7763157894736842;0.11538461538461539;0.36;0.6811267605633803;0.0023426811130775604
-64;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.003990180991422676
-65;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7105263157894737;0.09523809523809523;0.4;0.7247887323943661;0.002718716134040733
-66;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8631578947368421;0.24528301886792453;0.52;0.703661971830986;0.0037273546995493234
-67;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.14606741573033707;0.52;0.703661971830986;0.001681064275544486
-68;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.00430079388388549
-69;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7289473684210527;0.14545454545454545;0.64;0.6853521126760563;0.001777775249138358
-70;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8157894736842105;0.18309859154929578;0.52;0.6783098591549296;0.005205894817663648
-71;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.75;0.16346153846153846;0.68;0.6783098591549296;0.00275114275427768
-72;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.003521417213960376
-73;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7105263157894737;0.09523809523809523;0.4;0.7247887323943661;0.0016196243632293772
-74;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8657894736842106;0.25;0.52;0.7050704225352113;0.003717683602189936
-75;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7578947368421053;0.10588235294117647;0.36;0.7050704225352113;0.0019222728215027018
-76;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.004008954298114986
-77;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.1111111111111111;0.36;0.6867605633802817;0.0018050818771371269
-78;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.004318998301641841
-79;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7763157894736842;0.11538461538461539;0.36;0.6811267605633803;0.002000779376430728
-80;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.00580095174973394
-81;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7236842105263158;0.1;0.4;0.7247887323943661;0.005982995935482904
-82;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8631578947368421;0.24528301886792453;0.52;0.703661971830986;0.007216345291453763
-83;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7657894736842106;0.14444444444444443;0.52;0.703661971830986;0.007332967348702368
-84;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.00945548877461988
-85;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7289473684210527;0.14545454545454545;0.64;0.6853521126760563;0.007719242355051392
-86;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8157894736842105;0.18309859154929578;0.52;0.6783098591549296;0.007866015479521593
-87;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7447368421052631;0.16037735849056603;0.68;0.6783098591549296;0.007747117871076625
-88;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.006475653011875693
-89;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=1, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7236842105263158;0.1;0.4;0.7247887323943661;0.004592064580720034
-90;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8657894736842106;0.25;0.52;0.7050704225352113;0.008840520759804349
-91;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=3, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7605263157894737;0.10714285714285714;0.36;0.7050704225352113;0.006958070103792124
-92;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.009023702721606242
-93;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.1111111111111111;0.36;0.6867605633802817;0.008037819678975211
-94;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.009416804384272837
-95;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=7, p=2,
-           weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7763157894736842;0.11538461538461539;0.36;0.6811267605633803;0.008815489683911437
+0;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.005277574717183597
+1;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7;0.09174311926605505;0.4;0.7219718309859156;0.002170876911804953
+2;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8526315789473684;0.22807017543859648;0.52;0.6980281690140845;0.0077886467006464954
+3;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7263157894736842;0.1504424778761062;0.68;0.6980281690140845;0.0017749308090060367
+4;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.004819619811314624
+5;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7289473684210527;0.1388888888888889;0.6;0.6853521126760563;0.0016082466017905972
+6;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.006949536782485666
+7;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7421052631578947;0.1651376146788991;0.72;0.6811267605633803;0.0028643514815485105
+8;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.0031914621276882826
+9;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7;0.09174311926605505;0.4;0.7219718309859156;0.0021833924502061564
+10;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8552631578947368;0.23214285714285715;0.52;0.6994366197183098;0.005489201082127693
+11;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.75;0.1111111111111111;0.4;0.6994366197183098;0.0024160676748579135
+12;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.005877182752556109
+13;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7605263157894737;0.11627906976744186;0.4;0.6867605633802817;0.001976317189473775
+14;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8236842105263158;0.19117647058823528;0.52;0.6825352112676056;0.0068943546393711586
+15;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7736842105263158;0.12345679012345678;0.4;0.6825352112676056;0.0028899514454678865
+16;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.0044743047474185005
+17;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7;0.09174311926605505;0.4;0.7219718309859156;0.002145276948795072
+18;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8526315789473684;0.22807017543859648;0.52;0.6980281690140845;0.004029434268886689
+19;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7263157894736842;0.1504424778761062;0.68;0.6980281690140845;0.0016617220808257116
+20;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.00416824296098639
+21;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7263157894736842;0.13761467889908258;0.6;0.6853521126760563;0.0016514820954398601
+22;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.005964222628790594
+23;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7421052631578947;0.1651376146788991;0.72;0.6811267605633803;0.0029400135963442153
+24;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.003010555718901742
+25;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7;0.09174311926605505;0.4;0.7219718309859156;0.001538273367259535
+26;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8552631578947368;0.23214285714285715;0.52;0.6994366197183098;0.0037102880560269114
+27;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.75;0.1111111111111111;0.4;0.6994366197183098;0.0016236065803241218
+28;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.003750679109543853
+29;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7605263157894737;0.11627906976744186;0.4;0.6867605633802817;0.001875055111668189
+30;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8236842105263158;0.19117647058823528;0.52;0.6825352112676056;0.004106803048671281
+31;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7736842105263158;0.12345679012345678;0.4;0.6825352112676056;0.0018767617748380871
+32;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.005847600571541989
+33;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7157894736842105;0.11214953271028037;0.48;0.7219718309859156;0.00645517304110399
+34;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8526315789473684;0.22807017543859648;0.52;0.6980281690140845;0.006664523854851723
+35;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7210526315789474;0.1415929203539823;0.64;0.6980281690140845;0.0069859456198173575
+36;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.009121551471253042
+37;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7342105263157894;0.14150943396226415;0.6;0.6853521126760563;0.009783168308786117
+38;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.008040664119107532
+39;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7473684210526316;0.16822429906542055;0.72;0.6811267605633803;0.009121551471253042
+40;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8973684210526316;0.325;0.52;0.7219718309859156;0.005038641722421744
+41;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7157894736842105;0.11214953271028037;0.48;0.7219718309859156;0.005723014082832378
+42;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8552631578947368;0.23214285714285715;0.52;0.6994366197183098;0.007656095778656891
+43;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.75;0.1111111111111111;0.4;0.6994366197183098;0.005662143058543734
+44;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.008965107249423454
+45;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7684210526315789;0.12048192771084337;0.4;0.6867605633802817;0.009458902102778666
+46;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.8236842105263158;0.19117647058823528;0.52;0.6825352112676056;0.009090262627069023
+47;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";"SMOTE(k=3, k_neighbors=3, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.7736842105263158;0.12345679012345678;0.4;0.6825352112676056;0.007625375822499336
+48;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.00685168803374836
+49;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7105263157894737;0.09523809523809523;0.4;0.7247887323943661;0.004493078054110811
+50;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8631578947368421;0.24528301886792453;0.52;0.703661971830986;0.0060040447942810715
+51;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.14606741573033707;0.52;0.703661971830986;0.0036733103306687553
+52;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.007357998423685785
+53;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7289473684210527;0.14545454545454545;0.64;0.6853521126760563;0.0048679752990210545
+54;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8157894736842105;0.18309859154929578;0.52;0.6783098591549296;0.00871536538215878
+55;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7473684210526316;0.1619047619047619;0.68;0.6783098591549296;0.004791175408172421
+56;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.008447419097137754
+57;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7105263157894737;0.09523809523809523;0.4;0.7247887323943661;0.004700722202869656
+58;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8657894736842106;0.25;0.52;0.7050704225352113;0.008327383712639858
+59;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7578947368421053;0.10588235294117647;0.36;0.7050704225352113;0.0033678174322631094
+60;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.007462104943442682
+61;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.1111111111111111;0.36;0.6867605633802817;0.003348475237544335
+62;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.00920631579538167
+63;"KNeighborsClassifier(algorithm='ball_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7763157894736842;0.11538461538461539;0.36;0.6811267605633803;0.0023426811130775604
+64;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.003990180991422676
+65;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7105263157894737;0.09523809523809523;0.4;0.7247887323943661;0.002718716134040733
+66;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8631578947368421;0.24528301886792453;0.52;0.703661971830986;0.0037273546995493234
+67;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.14606741573033707;0.52;0.703661971830986;0.001681064275544486
+68;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.00430079388388549
+69;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7289473684210527;0.14545454545454545;0.64;0.6853521126760563;0.001777775249138358
+70;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8157894736842105;0.18309859154929578;0.52;0.6783098591549296;0.005205894817663648
+71;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.75;0.16346153846153846;0.68;0.6783098591549296;0.00275114275427768
+72;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.003521417213960376
+73;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7105263157894737;0.09523809523809523;0.4;0.7247887323943661;0.0016196243632293772
+74;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8657894736842106;0.25;0.52;0.7050704225352113;0.003717683602189936
+75;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7578947368421053;0.10588235294117647;0.36;0.7050704225352113;0.0019222728215027018
+76;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.004008954298114986
+77;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.1111111111111111;0.36;0.6867605633802817;0.0018050818771371269
+78;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.004318998301641841
+79;"KNeighborsClassifier(algorithm='kd_tree', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7763157894736842;0.11538461538461539;0.36;0.6811267605633803;0.002000779376430728
+80;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.00580095174973394
+81;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7236842105263158;0.1;0.4;0.7247887323943661;0.005982995935482904
+82;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8631578947368421;0.24528301886792453;0.52;0.703661971830986;0.007216345291453763
+83;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7657894736842106;0.14444444444444443;0.52;0.703661971830986;0.007332967348702368
+84;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8289473684210527;0.19696969696969696;0.52;0.6853521126760563;0.00945548877461988
+85;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7289473684210527;0.14545454545454545;0.64;0.6853521126760563;0.007719242355051392
+86;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8157894736842105;0.18309859154929578;0.52;0.6783098591549296;0.007866015479521593
+87;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='uniform')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7447368421052631;0.16037735849056603;0.68;0.6783098591549296;0.007747117871076625
+88;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.9026315789473685;0.34210526315789475;0.52;0.7247887323943661;0.006475653011875693
+89;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=1, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7236842105263158;0.1;0.4;0.7247887323943661;0.004592064580720034
+90;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8657894736842106;0.25;0.52;0.7050704225352113;0.008840520759804349
+91;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=3, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7605263157894737;0.10714285714285714;0.36;0.7050704225352113;0.006958070103792124
+92;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8315789473684211;0.2;0.52;0.6867605633802817;0.009023702721606242
+93;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=5, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7684210526315789;0.1111111111111111;0.36;0.6867605633802817;0.008037819678975211
+94;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');variance;0.8210526315789474;0.18840579710144928;0.52;0.6811267605633803;0.009416804384272837
+95;"KNeighborsClassifier(algorithm='brute', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=1, n_neighbors=7, p=2, weights='distance')";ADASYN(k=3, n_jobs=1, n_neighbors=3, random_state=None, ratio='auto');fisher;0.7763157894736842;0.11538461538461539;0.36;0.6811267605633803;0.008815489683911437
