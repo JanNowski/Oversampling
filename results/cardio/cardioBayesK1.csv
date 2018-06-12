@@ -1,13 +1,7 @@
 ;classifier;resampler;selection_algorithm;accuracy;precision;recall;duration
 0;GaussianNB(priors=None);"SMOTE(k=1, k_neighbors=1, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.954248366013072;0.9163616423642854;0.959547472478571;0.0034975239146319836
 1;GaussianNB(priors=None);"SMOTE(k=1, k_neighbors=1, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.8590102707749766;0.6120222409120643;0.5380952380952381;0.0013772780411613894
-2;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);"SMOTE(k=1, k_neighbors=1, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";variance;0.934640522875817;0.8718539630982506;0.8805129092602207;0.004237647306467807
-3;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);"SMOTE(k=1, k_neighbors=1, kind='regular', m=None, m_neighbors=10, n_jobs=1, out_step=0.5, random_state=None, ratio='auto', svm_estimator=None)";fisher;0.8590102707749766;0.6120222409120643;0.5380952380952381;0.0013283536663379891
 4;GaussianNB(priors=None);ADASYN(k=1, n_jobs=1, n_neighbors=1, random_state=None, ratio='auto');variance;0.8169934640522876;0.7994449497071215;0.8144507663383284;0.003519141661683989
 5;GaussianNB(priors=None);ADASYN(k=1, n_jobs=1, n_neighbors=1, random_state=None, ratio='auto');fisher;0.1895424836601307;0.3796296296296296;0.549828178694158;0.001290238164983748
-6;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);ADASYN(k=1, n_jobs=1, n_neighbors=1, random_state=None, ratio='auto');variance;0.869281045751634;0.8081374553843964;0.8208530083149975;0.0037421457889195153
-7;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);ADASYN(k=1, n_jobs=1, n_neighbors=1, random_state=None, ratio='auto');fisher;0.1895424836601307;0.3796296296296296;0.549828178694158;0.001239038237827117
 8;GaussianNB(priors=None);RandomOverSampler(random_state=None, ratio='auto');variance;0.938375350140056;0.8926374457532118;0.9547341802552068;0.0038320301055705386
 9;GaussianNB(priors=None);RandomOverSampler(random_state=None, ratio='auto');fisher;0.8590102707749766;0.6120222409120643;0.5380952380952381;0.0012009227364160324
-10;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);RandomOverSampler(random_state=None, ratio='auto');variance;0.9374416433239963;0.881348448308423;0.8917479860000072;0.004775246541896649
-11;BernoulliNB(alpha=1.0, binarize=0.0, class_prior=None, fit_prior=True);RandomOverSampler(random_state=None, ratio='auto');fisher;0.8590102707749766;0.6120222409120643;0.5380952380952381;0.0017038197989904802
